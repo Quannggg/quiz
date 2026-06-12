@@ -158,7 +158,7 @@ if st.button("Tạo Bộ Câu Hỏi", type="primary"):
         with st.spinner("Đang biên soạn câu hỏi..."):
             try:
                 response = client.chat.completions.create(
-                    model="accounts/fireworks/models/deepseek-v4-pro",
+                    model="accounts/fireworks/models/minimax-m3",
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.8
                 )
