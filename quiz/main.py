@@ -135,7 +135,7 @@ if st.button("Tạo Bộ Câu Hỏi", type="primary"):
         
         # Khởi tạo Prompt
         prompt = f"""
-        Bạn là một chuyên gia giáo dục. Dựa vào nội dung tài liệu dưới đây, hãy tạo ra {num_questions} câu hỏi trắc nghiệm.
+        Bạn là một giáo sư, tiến sĩ, bác sĩ y khoa, bác sĩ chuyên khoa II. Dựa vào nội dung tài liệu dưới đây, hãy tạo ra {num_questions} câu hỏi trắc nghiệm.
         
         {history_instruction}
         
