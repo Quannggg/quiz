@@ -1,3 +1,8 @@
+streamlit
+openai
+PyPDF2
+pytesseract
+pdf2image
 tesseract-ocr
 tesseract-ocr-vie
 poppler-utils
